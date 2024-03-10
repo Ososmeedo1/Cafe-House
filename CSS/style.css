@@ -1,0 +1,135 @@
+header .navbar {
+    background-color: #3D342B;
+}
+
+header .navbar-nav .nav-link {
+    color: white;
+}
+
+header .navbar-nav .nav-link:hover {
+    color: #c99a50;
+}
+
+header .navbar-brand {
+    color: #c99a50;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+header .navbar-brand img {
+    position: absolute;
+    left: -20%;
+    top: 15%;
+}
+
+header {
+    background-color: #262523;
+    height: 100vh;
+}
+
+.home-cap span {
+    color: #c99a50;
+    font-weight: 700;
+}
+
+.home-cap h1 {
+    font-size: 4rem;
+}
+
+.home-cap a {
+    background-image: url(../drive-download-20231212T204143Z-001/tm-brown-button.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #c99a50;
+    position: relative;
+}
+
+.home-cap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.office {
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translate(-50%, 5%);
+}
+
+/* ================================================ */
+
+
+#popular-items .content .title {
+    color: #c99a50;
+    font-weight: 700;
+}
+
+#popular-items .content .special {
+    filter: drop-shadow(0 25px 25px #000);
+}
+
+#popular-items .separate span {
+    font-size: 2.5rem;
+    margin-left: 0.5rem;
+    color: #c99a50;
+    font-weight: 700;
+}
+
+#popular-items .separate span::after {
+    content: "";
+    background-color: #c99a50;
+    width: 400%;
+    height: 3px;
+    position: absolute;
+    top: 60%;
+    left: 120%;
+}
+
+.content .btn {
+    background-image: url(../drive-download-20231212T204143Z-001/tm-brown-button.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #c99a50;
+    position: absolute;
+    bottom: -10%;
+    right: 33%;
+}
+
+/* ====================================== */
+
+#menu .content span {
+    color: #c99a50;
+    font-size: 2.4rem;
+    margin-left: 0.5rem;
+    font-weight: 700;
+}
+
+#menu .content span::after {
+    content: "";
+    background-color: #c99a50;
+    width: 550%;
+    height: 4px;
+    position: absolute;
+    bottom: 30%;
+    left: 130%;
+}
+
+
+
+
+/* Medi Query */
+
+
+@media only screen and (max-width: 700px) {
+        #home {
+            margin-bottom: 60px;
+        }
+
+        #popular-items .separate span::after {
+            width: 80%;
+        }
+    }
